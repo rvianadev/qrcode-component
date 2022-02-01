@@ -25,8 +25,8 @@ body {
 
   padding: 16px;
 
-  height: 460px;
-  width: 300px;
+  height: 480px;
+  width: 320px;
 }
 
 img {
@@ -34,17 +34,19 @@ img {
   width: 100%;
 }
 
-h3 {
+h1 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 15px;
+
+  font-size: 22px;
 }
 
 p {
   text-align: center;
   font-size: 15px;
   color: hsl(220, 15%, 55%);
-  margin: 0 5px;
+  margin: 0 12px;
 }
 
 footer {
@@ -53,8 +55,8 @@ footer {
 }
 
 @media (max-width: 1440px) {
-  h3 {
-    font-size: 21px;
+  h1 {
+    font-size: 23px;
   }
 }
 
